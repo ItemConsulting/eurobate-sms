@@ -1,5 +1,7 @@
 # JavaScript library for Eurobate SMS
 
+[![npm version](https://badge.fury.io/js/eurobate-sms.svg)](https://badge.fury.io/js/eurobate-sms)
+
 This library provides a JavaScript/TypeScript wrapper around the Eurobate JSON APIs.
 
 It comes on two flavors.
