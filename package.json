@@ -1,0 +1,26 @@
+{
+  "name": "eurobate-sms",
+  "version": "0.0.1",
+  "description": "Wrapper around the Eurobate APIs for JavaScript and TypeScript",
+  "main": "lib/index.js",
+  "module": "es6/index.js",
+  "typings": "lib/index.d.ts",
+  "author": "Tom Arild Jakobsen <tajakobsen@gmail.com>",
+  "scripts": {
+    "clean": "rimraf lib/* es6/*",
+    "build": "npm run clean && tsc && tsc -p tsconfig.es6.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItemConsulting/eurobate-sms.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "fp-ts": "^2.0.5"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "typescript": "^3.5.3"
+  }
+}
