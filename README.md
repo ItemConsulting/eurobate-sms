@@ -4,9 +4,12 @@
 
 This library provides a JavaScript/TypeScript wrapper around the Eurobate JSON APIs.
 
+| WARNING: Do not use this library from client side JavaScript, since you will make your password public. |
+| --- |
+
 It comes on two flavors.
 
- * Axios for Node.js (not recommended clientside for security reasons)
+ * Axios for Node.js (Do not use it in client side JavaScript in the browser)
  * Enonic XP
  
 ### Usage in Node.js
