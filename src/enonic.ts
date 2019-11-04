@@ -2,8 +2,9 @@ import { parseJSON } from "fp-ts/lib/Either";
 import { IOEither, fromEither, chain, filterOrElse } from "fp-ts/lib/IOEither";
 import { pipe } from "fp-ts/lib/pipeable";
 import { EnonicError } from 'enonic-fp/lib/common';
-import { request, HttpRequestParams, HttpResponse } from 'enonic-fp/lib/http';
+import { request } from 'enonic-fp/lib/http';
 import { EurobateParams, EurobateResponse } from "./index";
+import {HttpRequestParams, HttpResponse} from "enonic-types/lib/http";
 
 export function json(str: string) : IOEither<EnonicError, any> {
   return fromEither(
