@@ -4,7 +4,7 @@ import { pipe } from "fp-ts/lib/pipeable";
 import { EnonicError } from 'enonic-fp/lib/common';
 import { request } from 'enonic-fp/lib/http';
 import { EurobateParams, EurobateResponse } from "./index";
-import {HttpRequestParams, HttpResponse} from "enonic-types/lib/http";
+import { HttpRequestParams, HttpResponse } from "enonic-types/lib/http";
 
 export function json(str: string) : IOEither<EnonicError, any> {
   return fromEither(
