@@ -1,5 +1,5 @@
 import { EurobateParams, EurobateMessage, EurobateResponse, EurobateMessageResponse } from './eurobate'
-import { sendSMS } from './axios';
+import { sendSMS } from './enonic';
 
 export {
     EurobateParams,
